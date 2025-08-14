@@ -5,7 +5,7 @@ authors: yangshun
 tags: [hello, docusaurus]
 ---
 
-This is the summary of a very long blog post,
+c'est le résumé d'une longue publication,
 
 Use a `<!--` `truncate` `-->` comment to limit blog post size in the list view.
 

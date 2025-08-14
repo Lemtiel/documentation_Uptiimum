@@ -1,0 +1,28 @@
+changement de couleurs:
+- selectionner une couleurs sur "HTML Colors Code"
+- coller dans la section "Styling & Layout" du site de docusaurus
+- copier les lignes de codes pour chacune des couleurs
+- remplacer le code des couleurs présentes dans src/css/custom.css : [root]
+
+manipuler la page d'accueil:
+- src/component/HomepageFeatures/index.js
+- pour la structure des blocs, modifier la section function HomepageFeatures
+- pour modifier les textes, le faire directement dans le bloc d'en haut
+
+utiliser les images "undraw_docusaurus"
+- aller sur www.undraw.co
+- remplacer la couleur présente par la couleur primaire du projet
+- cliquer sur l'image choisie et la télécharger (au format .svg)
+- coller l'image dans static/img ; renomer si nécessaire
+- remplacer à partir du fichier src/component/HomepageFeatures/index.js
+
+remplacer les icônes:
+- aller sur favicon.io 
+- choisir le moyen à convertir en icônes
+- créer et télécharger l'icône, puis le placer dans static/img
+
+hex couleur fondamentale uptimum jour : #0B0242
+
+travail à faire:
+-modifier textes et images sur la page principale via docusaurus.config.js
+-modifier la page intro documentation
