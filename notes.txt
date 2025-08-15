@@ -24,7 +24,7 @@ remplacer les icônes:
 hex couleur fondamentale uptimum jour : #0B0242
 
 travail à faire:
-- modifier textes et images sur la page principale via docusaurus.config.js
+- modifier textes sur la page principale index.js
 - modifier la page intro documentation
 - liens dans les footer
 - 

@@ -2,6 +2,4 @@
 sidebar_position: 4
 ---
 
-# Pharmacie
-
-
+# Paramètres

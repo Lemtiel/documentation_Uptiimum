@@ -1,0 +1,6 @@
+popur les modules ayant des services sans captures, la plupart sont vides et présentent la même configuration de page que celles proces d'elles.
+d'autres par contre ne sont pas fonctionnels et redirigent vers des bugs/erreurs.
+parmi eux, on a :
+RH:
+-Personnel
+-Rapport personel etc.

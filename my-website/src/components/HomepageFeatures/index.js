@@ -4,62 +4,56 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/delesign-financial-market-growth.svg').default,
+    title: 'Suivi Patients',
+    Svg: require('@site/static/img/undraw_doctor_aum1.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       Uptiimum vous rends plus performant sur le marché grâce à son système de suivi des Patients très efficace. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Consultations',
+    Svg: require('@site/static/img/undraw_doctors_djoj.svg').default,
+    description: (
+      <>
+        Il prend en charge toutes les Consultations et les stocke dans base de données pour assurer un suivi efficace sur les Patients.
+      </>
+    ),
+  },
+  {
+    title: 'Ressources Humaines',
+    Svg: require('@site/static/img/undraw_hr-presentation_uunk.svg').default,
+    description: (
+      <>
+        Uptiimum vous permet de gérer votre personnel de travail, les affectations, les salaires et bien d'autres options.
+      </>
+    ),
+  },
+  {
+    title: 'Pharmacie',
+    Svg: require('@site/static/img/undraw_medical-care_7m9g.svg').default,
+    description: (
+      <>
+        Le module Pharmacie de cet ERP vous permet de contrôler votre stock de médicaments et de suivre à la trace leur écoulement.
+      </>
+    ),
+  },
+  {
+    title: 'Laboratoire',
     Svg: require('@site/static/img/gummy-medical-lab.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Au Laboratoire, analyser et réaliser les examens de vos clients, suivez-les et consulter votre historique d'analyses
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Gestion des finances',
+    Svg: require('@site/static/img/undraw_savings_uwjn.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Uptiimum, en plus de suivre votre hôpital, peut vous aider à suivre les stocks es mouvements de votre marchandise dans votre boutique.
       </>
     ),
   },
