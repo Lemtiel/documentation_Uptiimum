@@ -1,3 +1,13 @@
+Critères d'avancement ud travail de recherche :
+- Page d'accueil de la documentation
+- Présentation de l'ERP, des modules, et des premières interactions
+- Mise en oeuvre des tutoriels prévus pour chacune des opération dans chaque module
+- Mise en oeuvre d'une page pour les références des versions de l'ERP et des contacts utiles
+- Création d'un blog descriptif pour chacun des développeurs de la team
+- Déploiement du modèle en ligne
+- Intégration effective à l'ERP Uptiimum
+
+
 changement de couleurs:
 - selectionner une couleurs sur "HTML Colors Code"
 - coller dans la section "Styling & Layout" du site de docusaurus
