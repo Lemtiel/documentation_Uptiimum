@@ -1,35 +1,71 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 
 ---
 
 # Gestion des Patients
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+Toutes vos interactions avec les patients ici 🩺👨‍⚕️
 
-## Create your first Post
+--- 
+L'ensemble des tutoriels conçu pour cette section décriront en détails et de manière très simple comment effectuer les différentes opérations pour chacun des service développé dans ce module.
+Ce service compte dans sa version actuelle 13 services. Pour chacun d'eux, une légère description de la page sera effectuée, puis suivra la description pour la réalisation de la tâche.
 
-Create a file at `blog/2021-02-28-greetings.md`:
+A titre de rappel, ici sont suivis les patients qui ont été au préalable enregistré dans les bases de données de l'ERP au travers de la asection d'Accueil. Sans plus tarder, entrons dans le vif du sujet.
 
-```md title="blog/2021-02-28-greetings.md"
----
-slug: greetings
-title: Greetings!
-authors:
-  - name: Joel Marcey
-    title: Co-creator of Docusaurus 1
-    url: https://github.com/JoelMarcey
-    image_url: https://github.com/JoelMarcey.png
-  - name: Sébastien Lorber
-    title: Docusaurus maintainer
-    url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
-tags: [greetings]
----
+## Maternité
 
-Congratulations, you have made your first post!
+Au service de maternité, tel que vous pouvez le voir sur l'application devant vous, on vous présente les accouchements en cours, les sages femmes pour chacun des accouchements identifiés, la liste des naissances et les différentes salles où celles-si s'opèrent.
 
-Feel free to play around and edit this post as much as you like.
-```
+Tout en haut à droite de votre écran, vous avez un bouton avec l'inscription "**Actions**". en cliquant dessus, vous avez une liste déroulante d'option pour : 
 
-A new blog post is now available at [http://localhost:3000/blog/greetings](http://localhost:3000/blog/greetings).
+### Nouvel accouchement
+### Annuler un accouchement
+### Terminer un accouchement 
+
+## Hospitalisation
+
+La gestion des hospitalisations dans ce module est très simmple. 
+
+
+## Consultations
+
+La page des consultations dans cette version actuelle est principalement à titre informatif ; elle affiche la liste des consultations enregistrées dans la BD de l'ERP.
+
+## prescriptions
+
+
+
+## Liste des ordonnances
+
+
+
+## Rendez-vous
+
+
+
+## Affectations 
+
+
+
+## Transferts
+
+
+
+## Bloc opératoire
+
+
+
+## Réanimation
+
+
+
+## Décès
+
+
+
+## Sorties
+
+
+
+## Statistiques

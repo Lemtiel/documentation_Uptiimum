@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_doctors_djoj.svg').default,
     description: (
       <>
-        Il prend en charge toutes les Consultations et les stocke dans base de données pour assurer un suivi efficace sur les Patients.
+        Il prend en charge l'ensemble des consultations et les stocke dans base de données pour assurer un suivi efficace sur les Patients.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_hr-presentation_uunk.svg').default,
     description: (
       <>
-        Uptiimum vous permet de gérer votre personnel de travail, les affectations, les salaires et bien d'autres options.
+        Afin de gérer votre personnel de travail, les affectations, les salaires et bien d'autres options avec précision, Uptiimum est la solutio idéale.
       </>
     ),
   },
@@ -35,7 +35,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_medical-care_7m9g.svg').default,
     description: (
       <>
-        Le module Pharmacie de cet ERP vous permet de contrôler votre stock de médicaments et de suivre à la trace leur écoulement.
+        Le module Pharmacie de cet ERP vous permet de contrôler votre stock de médicaments et de contrôler à la trace leur écoulement.
       </>
     ),
   },
@@ -44,7 +44,7 @@ const FeatureList = [
     Svg: require('@site/static/img/gummy-medical-lab.svg').default,
     description: (
       <>
-        Au Laboratoire, analyser et réaliser les examens de vos clients, suivez-les et consulter votre historique d'analyses
+        Au Laboratoire, analysez et réalisez les examens de vos Patients, suivez-les et consultez votre historique d'analyses.
       </>
     ),
   },
@@ -53,7 +53,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_savings_uwjn.svg').default,
     description: (
       <>
-        Uptiimum, en plus de suivre votre hôpital, peut vous aider à suivre les stocks es mouvements de votre marchandise dans votre boutique.
+        L'ERP Uptiimum peut également vous aider à gérer les stocks et les mouvements de votre marchandise dans votre boutique.
       </>
     ),
   },
