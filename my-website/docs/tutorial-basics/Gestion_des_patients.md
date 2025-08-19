@@ -63,7 +63,7 @@ Bugg
 
 ## Bloc opératoire
 
-Cette section rassemble de nombreuses autres sous sections.
+Cette section rassemble de nombreuses autres sous sections parmi lesquels nous pouvons citer :
 
 ### Anesthésie
 Ici vous enregistrer les types d'anesthésies effectuées, et non les patients qui l'ont été
@@ -76,19 +76,23 @@ De la même façon que pour anesthésie et types d'intervention, vous enregistre
 De la même façon que pour anesthésie et types d'opération, vous enregistrer les types d'interventions chirurgicales effectuées, et non les patients qui l'ont été. Vous pouvez renseignez un nouveau à l'aide du bouton prévu à cet effet dans le coin haut - droit
 
 ### Liste des opérations    
+Cette Page est à titre infofrmatif. Elle vous présente la liste des opérations qui ont été effectuées au sein de l'hôpital de la plus récente vers la moin récente.
 
 ### Tickets opératoires
+Cette Page est à titre infofrmatif. Elle vous présente la liste des tickets distribués pour les opérations à effectuer sur chaque client. Ce ticket renseigne la salle, le numéro du client, le type d'intervention et d'autres infos utiles pour la mise en oeuvre de l'opération.
+
 
 ## Réanimation
 Bugg
 
 
 ## Décès
-
+Bugg
 
 
 ## Sorties
-
+Bugg
 
 
 ## Statistiques
+Bugg
