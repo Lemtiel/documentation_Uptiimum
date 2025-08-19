@@ -44,7 +44,7 @@ Bugg
 
 
 
-## Affectations 
+## Affectations
 
 L'affectation est le procédé par lequel on redirige un patient après analyse et diagnostic vers un service spécialisé pour des soins ultérieur adéquat par un expert. Pour le faire sur Uptiimum, la démarche est la suivante :
 
