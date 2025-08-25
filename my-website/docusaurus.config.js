@@ -134,7 +134,7 @@ const config = {
               },
               {
                 label: 'linkedin',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://www.linkedin.com/company/tdr-consuling-sarl/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BKjw94RcGSvqPhp9bsNNUIw%3D%3D',
               },
             ],
           },

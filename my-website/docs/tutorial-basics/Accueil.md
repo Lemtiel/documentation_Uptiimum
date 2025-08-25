@@ -13,7 +13,7 @@ Cette section fait référence au bloc accueil dans le flanc gauche de l'écran 
 
 ## Nouveau patient
 
-La procédure pour ajouter un nouveau patient est très simple et se fait comme suivant ces étapes :
+La procédure pour ajouter un nouveau patient se fait suivant ces étapes :
 
 - Aller dans la barre de recherches sur le flanc droit de l'écran
 - suivre le chemin `Welcome & invoice > Accueil > New Patient`
