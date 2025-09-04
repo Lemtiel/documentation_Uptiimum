@@ -91,7 +91,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Documentation',
+            label: 'Introduction',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
         ],
@@ -113,7 +113,7 @@ const config = {
             ],
           },
           {
-            title: 'Web',
+            title: 'Plus d\'infos',
             items: [
               {
                 label: 'Uptiimum web',

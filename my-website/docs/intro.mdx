@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Le progiciel **uptiimum ERP** offre une solution efficace de gestion intégrée des fonctions de votre entreprise. Avec une interface simple et conviviale, "Uptiimum ERP" s'adapte facilement aux besoins spécifique et à la taille de votre organisation, qu'elle soit publique ou privée. "Uptiimum ERP" est utilisé par plus de 192 partenaires au Cameroun et en Afrique centrale. Ce qui fait de "Uptiimum ERP le leader incontesté
+Le progiciel **Uptiimum ERP** offre une solution efficace de gestion intégrée des fonctions de votre entreprise. Avec une interface simple et conviviale, Uptiimum s'adapte facilement aux besoins spécifique et à la taille de votre organisation, qu'elle soit publique ou privée. Il est utilisé par plus de 192 partenaires au Cameroun et en Afrique centrale. Ce qui fait de "Uptiimum ERP le leader incontesté.
 
 ![Aperçu Uptiimum](../static/img/uptiimum-Aperçu.png)
 
@@ -28,32 +28,64 @@ Avant d'entrer dans la présentation des modules que propose Uptiimum pour la ge
 ![Aperçu accueil](../static/img/dashboard.png)
 
 Vous avez la possibilité de masquer ou d'afficher la barre de menu latérale en appuyant sur les trois traits que pointe la flèche jaune 🎨. 
-La flèche Rouge est votre nom d'utilisateur sur la plateforme, celui par lequel vous êtes connu dans le système. Tou près, dans le cercle, c'est la date à laquelle vous vous êtes connecté au système : ces inforamtions sont stockées en temps réel dans les bases de données de l'ERP.
+Dans le cercle Rouge, c'est votre nom d'utilisateur sur la plateforme, celui par lequel vous êtes connu dans le système. Tout près, dans le cadre Orange, c'est la date à laquelle vous vous êtes connecté au système : ces inforamtions sont stockées en temps réel dans les bases de données de l'ERP.
+La flêche rouge est un filtre pour les dashboard sur l'écran d'accueil.
 
 ### [Gestion Patients](tutorial-basics\Gestion_des_patients.md)
 
-Le module de gestion des patients prend en compte nombreux aspects et renseigne plusieurs catégories diverses. Sur le flanc gauche de votre écran, lorsque vous déroulez la bande du module de gestion des patients, vous avez tpus les services et départements présents dans l'ERP pour suivre les patients. 
+Le module de gestion des patients prend en compte nombreux aspects et renseigne plusieurs catégories diverses. Sur le flanc gauche de votre écran, lorsque vous déroulez la bande du module de gestion des patients, vous avez tous les sous-modules présents dans l'ERP pour suivre les patients. 
 
-D'entrée de jeux, nous avons, telle que présenté sur la photo ci-dessous, le service de **maternité**. Il présente un général sur l'état du service maternité de l'établissment sanitaire : nombre de naissances, salles occupées, médécins en charges, etc. On peut suivre les opérations en cours, celles déjà effectuées et même celles qui présentent des complications.
+D'entrée de jeux, nous avons, telle que présenté sur la photo ci-dessous, le sous-module **maternité**. Il présente un état général sur ce sous-module dans l'établissment sanitaire : nombre de naissances, salles occupées, médécins en charges, etc. On peut suivre les opérations en cours, celles déjà effectuées et même celles qui présentent des complications.
 
 ![Aperçu maternité](../static/img/patients-maternité.png)
 
-Il en est de même pour les autres départemnts et services qui vous sont présentés. Vous voyez un état pour tous les patients concernés par ce servie là et des boutons pour effectuer des actions au sein de ce service ou département.
+Il en est de même pour les autres sous-modules qui vous sont présentés. Vous voyez un état pour tous les patients concernés et des boutons pour effectuer des actions spécifiques.
 
-    Services du module gestion des patients :    
-- Maternité
-- Hospitalisation
-- Consultations
-- prescriptions
-- Liste des ordonnances
-- Rendez-vous
-- Affectations 
-- Transferts
-- Bloc opératoire
-- Réanimation
-- Décès
-- Sorties
-- Statistiques
+    Sous-modules de gestion des patients :    
+<div
+  style={{
+    display: 'grid',
+    gridTemplateColumns: 'repeat(5, 1fr)',
+    gap: '16px',
+    margin: '24px 0'
+  }}
+>
+  {[
+    { name: 'Maternité', img: require('../static/img/gestpat-matern.png').default },
+    { name: 'Hospitalisation', img: require('../static/img/patients-hospitalisation.png').default },
+    { name: 'Consultations', img: require('../static/img/patients-consultations.png').default },
+    { name: 'Prescriptions', img: require('../static/img/patients-prescriptions.png').default },
+    { name: 'Liste des ordonnances', img: require('../static/img/patients-ordonnances.png').default },
+    { name: 'Rendez-vous', img: require('../static/img/patients-rendezvous.png').default },
+    { name: 'Affectations', img: require('../static/img/patients-affectations.png').default },
+    { name: 'Transferts', img: require('../static/img/patients-transferts.png').default },
+    { name: 'Bloc opératoire', img: require('../static/img/patients-bloc.png').default },
+    { name: 'Réanimation', img: require('../static/img/patients-reanimation.png').default },
+    { name: 'Décès', img: require('../static/img/patients-deces.png').default },
+    { name: 'Sorties', img: require('../static/img/patients-sortie.png').default },
+    // Ajoute une image pour Statistiques si disponible
+    { name: 'Statistiques', img: require('../static/img/patients-statistiques.png').default },
+  ].slice(0,12).map((mod, idx) => (
+    <div
+      key={mod.name}
+      style={{
+        border: '1px solid #eee',
+        borderRadius: '8px',
+        padding: '12px',
+        textAlign: 'center',
+        background: '#fafbfc',
+        boxShadow: '0 2px 8px #0001'
+      }}
+    >
+      <img
+        src={mod.img}
+        alt={mod.name}
+        style={{ width: '64px', height: '64px', objectFit: 'contain', marginBottom: '8px' }}
+      />
+      <div style={{ fontWeight: 'bold', fontSize: '1rem' }}>{mod.name}</div>
+    </div>
+  ))}
+</div>
 
 Pour rapidement accéder aux tutoriels relatifs aux opérations sur ce module, cliquez sur l'intitulé de ce module sur cette page ou alors, dans la barre de gauche, cliquez sur tutoriel puis sur **Gestion des Patients**.
 

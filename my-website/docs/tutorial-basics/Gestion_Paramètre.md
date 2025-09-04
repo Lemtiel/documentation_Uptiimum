@@ -1,10 +1,10 @@
 ---
-sidebar_position: 5
+sidebar_position: 8
 ---
 
 # Paramètres
 
-Optimiser les paramètres pour votre établissement 👷‍♂️⚙
+👷‍♂️⚙ Optimiser les paramètres pour votre établissement 
 
 ---
 
